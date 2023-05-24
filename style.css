@@ -240,7 +240,7 @@ section#articles {
   aspect-ratio: 1.635;
 }
 
-.lastArticles main {
+.lastArticles .articleMain {
   padding: 1.5625rem 1.9rem 3rem;
 }
 
