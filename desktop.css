@@ -114,7 +114,7 @@ header#mainHeader {
 section#entrance {
   padding: 10.625rem 0;
   position: relative;
-  overflow: hidden;
+  overflow-x: clip;
 }
 
 #entranceImages {
@@ -124,17 +124,27 @@ section#entrance {
   top:0;
 }
 
+#entranceImages #bgImg{
+  display: block;
+  height:100%;
+  overflow-y: clip;
+
+}
+
 #entranceImages #bgImg img {
   height: 150%;
   max-width: none;
-  transform: translate(-5%,-25%);
+  transform: translate(-7.5%,-27.5%);
 }
 
 #mockupImage {
   position: absolute;
   height:140%;
   left:0;
-  transform: translate(14.5%,-14%);
+  transform: translate(14.5%,-15%);
+  z-index: 5;
+  max-width: none;
+  top:0;
 }
 
 #entranceText {
